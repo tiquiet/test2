@@ -1,0 +1,10 @@
+env: "dev"
+
+clear_storage_refresh_rate: 5
+mem_size: 500
+file_path: "storage.json"
+
+http_server:
+  address: "localhost:8080"
+  rw_timeout: 5s
+  idle_timeout: 60s
